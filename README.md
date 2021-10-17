@@ -22,8 +22,8 @@ pip install scipy==1.6.0
 '''
 
 # Running GOMORS
-An example of how to run GOMORS is provided in the file simple_experiment.py. The setup for running the algorithm is synonymous to how optimization experiments are setup in pysot. To link GOMORS to a user-defined MO optimization problem, kindly look at how problems are defined in the test_problems.py python file. For further information please write to me at [vijeysubramani@gmail.com]
+An example of how to run GOMORS is provided in the file simple_experiment.py. The setup for running the algorithm is synonymous to how optimization experiments are setup in pysot. To link GOMORS to a user-defined MO optimization problem, kindly look at how problems are defined in the test_problems.py python file. For further information please write to me at vijeysubramani@gmail.com
 
 # References
-1. [Akhtar, T., Shoemaker, C.A. Multi objective optimization of computationally expensive multi-modal functions with RBF surrogates and multi-rule selection. J Glob Optim 64, 17–32 (2016). https://doi.org/10.1007/s10898-015-0270-y]  (Akhtar, T., Shoemaker, C.A. Multi objective optimization of computationally expensive multi-modal functions with RBF surrogates and multi-rule selection. J Glob Optim 64, 17–32 (2016). https://doi.org/10.1007/s10898-015-0270-y)
-2. [https://github.com/drkupi/GOMORS_pySOT] (https://github.com/drkupi/GOMORS_pySOT)
+1. Akhtar, T., Shoemaker, C.A. Multi objective optimization of computationally expensive multi-modal functions with RBF surrogates and multi-rule selection. J Glob Optim 64, 17–32 (2016). https://doi.org/10.1007/s10898-015-0270-y
+2. https://github.com/drkupi/GOMORS_pySOT
