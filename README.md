@@ -11,7 +11,7 @@ The originally developed GOMORS in the "drkupi/GOMORS_pySOT" is functional only 
 # Installation Instructions
 The prerequisites for using the GOMORS code in this repository is installation of a python 3.7 environment, the pySOT library, the platypus library, numpy, scipy and matplotlib. We recommend using a virtual environment within Anaconda. Instructions for installation of pre-requisites is as follows:
 
-'''
+```
 conda create --name mo-surrogate python=3.7
 conda activate mo-surrogate
 pip install pysot==0.2.0
@@ -19,7 +19,7 @@ pip install matplotlib
 pip install platypus-opt
 pip install numpy==1.16.5
 pip install scipy==1.6.0
-'''
+```
 
 # Running GOMORS
 An example of how to run GOMORS is provided in the file simple_experiment.py. The setup for running the algorithm is synonymous to how optimization experiments are setup in pysot. To link GOMORS to a user-defined MO optimization problem, kindly look at how problems are defined in the test_problems.py python file. For further information please write to me at vijeysubramani@gmail.com
