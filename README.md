@@ -1,7 +1,6 @@
 # GOMORS_Python3.7_PYSOT0.2.0
 This GOMORS algorithm is the modified python version of the originally developed code which had been uploaded in this repository: https://github.com/drkupi/GOMORS_pySOT. 
 
-Contributors: @Vijey-Subramani-Raja-Gopalan @yanwerne @tvanhout2
 
 # What is GOMORS?
 GOMORS is a surrogate-assisted Multi-Objective Optimization (MO) strategy, designed for computational expensive MO problems, e.g., expensive environmental simulation optimization problems, hyperparameter tuning of Deep Neural Networks etc. GOMORS is implemented in the pySOT lbirary and framework, and uses Radial Basis Functions (RBFs), as surrogates. Moreover, GOMORS uses a Multi Objective Evolutionary Strategy (MOEA) to optimize RBF surrogates in each iteration. Any MOEA methods can be connected with GOMORS for optimizing surrogates. We currently use the Platypus library to link GOMORS with epsilon-MOEA. GOMORS also supports modest parallelization on up to 4 cores, and hence, is suitable for deskptop and laptop machines.
